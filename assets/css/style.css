@@ -47,6 +47,40 @@
 
 
 
+footer {
+  height: 70px;
+  background-color: #BBDBF0;
+}
+
+.footer-elem {
+    font-family: 'Lobster', cursive;
+    color: #585858;
+    font-size: 120%;
+}
+
+.footer-elem li {
+  display: inline; 
+  text-align: center;
+}
+
+.footer-elem i {
+  margin: 1%;
+  padding: 5%;
+  color: #585858;
+}
+
+#contact-footer {
+    text-decoration: none;
+}
+
+
+#copyright {
+    margin: 1%;
+    padding: 5%;
+    display: inline; 
+    text-align: right;
+}
+
 
 
 @media screen and (max-width: 768px){
