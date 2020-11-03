@@ -44,31 +44,27 @@
 }
 
 
-
-footer {
-    height: 70px;
-    background-color: #343A40;
-}
-
 .footer-elem {
     font-family: 'Lobster', cursive;
     color: #CBCED1;
     font-size: 120%;
+    margin: 0px;
+    padding: 0px;
 }
 
 .footer-elem li {
     display: inline; 
-
 }
 
 .footer-elem i {
-  margin: 1%;
-  padding: 5%;
-  color: #CBCED1;
+    margin: 1%;
+    padding: 5%;
+    color: #CBCED1;
 }
 
 .footer-elem ul {
     padding-inline-start: 0px;
+    background-color: #343A40;
 }
 
 #contact-footer {
