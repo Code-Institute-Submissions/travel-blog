@@ -1,6 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 
+/* General Styling */
+h2 {
+    font-family: 'Lobster', cursive;
+    color: #585858;
+    text-align: center;
+    font-size: 400%;  
+}
+
+h3 {
+    font-family: 'Lobster', cursive;
+    color: #585858;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Lobster', cursive;
+    color: #585858;
+    text-align: center;
+    margin: 0.5%;
+}
+
+.background {
+    background-color: #F0E8DB;
+}
+
+
+/* Header Styling */
 #page-header {
     background-color: #FCEB92;
     padding-left: 20px;
@@ -27,9 +54,14 @@
     font-size: 20px;
 }
 
+@media screen and (max-width: 768px){
+    .rwd-break {
+        display: none;
+    }
+}
 
 
-
+/* Footer Styling */
 .footer-elem {
     font-family: 'Lobster', cursive;
     color: #CBCED1;
@@ -61,41 +93,7 @@
 
 
 
-
-@media screen and (max-width: 768px){
-    .rwd-break {
-        display: none;
-    }
-}
-
-
-
-#gallery-section {
-    background-color: #F0E8DB;
-}
-
-
-h2 {
-    font-family: 'Lobster', cursive;
-    color: #585858;
-    text-align: center;
-    font-size: 400%;  
-}
-
-h3 {
-    font-family: 'Lobster', cursive;
-    color: #585858;
-    text-align: center;
-}
-
-h4 {
-    font-family: 'Lobster', cursive;
-    color: #585858;
-    text-align: center;
-    margin: 0.5%;
-}
-
-
+/* Gallery Styling */
 .my-controls {
     text-align: center;
 }
@@ -114,4 +112,23 @@ h4 {
 
 .carousel-multi-item-2 .card img {
     border-radius: 2px; 
+}
+
+
+
+/* Contact Styling */
+#newsletter {
+    margin-top: 8px;
+}
+
+#email-signup {
+    margin-top: 15px;
+}
+
+#email-label {
+    font-family: 'Lobster', cursive;
+    color: #585858;
+    font-size: 150%;
+    text-align: center;
+    padding-right: 0px;
 }
