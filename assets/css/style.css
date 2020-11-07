@@ -175,8 +175,18 @@ h4 {
 
 
 /* Contact Styling */
+.image-frame {
+    background: url("../images/Zanzibar/Zanzibar3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    padding: 0%;
+    margin: 0%;
+}
+
 .contact-heading {
-    padding-top: 2%;
+    padding-top: 4%;
     padding-bottom: 2%;
     margin: 0%;
 }
@@ -185,13 +195,8 @@ h4 {
     padding-top: 0%
 }
 
-#my-form {
-    padding-top: 2%;
-    padding-bottom: 2%;
-}
-
 #thankyou {
     margin: 0%;
-    padding-bottom: 5%;
+    padding-bottom: 7%;
     font-size: 250%;
 }

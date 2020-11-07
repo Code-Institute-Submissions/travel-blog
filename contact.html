@@ -47,24 +47,31 @@
 
 
         <!--Contact Form Section-->
-        <section class="background">
-
-            
+        <section class="background">        
             
             <!--Contact Form-->
             <div id="my-form" class="row">
-                <div class="col-2 col-md-3"></div>
 
+                <!--Left Image-->
+                <div class="d-none d-md-block col-md-2 image-frame" title=""></div>
+                <!--/.Left Image-->
+
+                <div class="col-1"></div>
+
+                <!--Center Content-->
                 <div class="col-8 col-md-6">
                     <h2 class="contact-heading">Get in touch!</h2>
                     <h4 id="contact-sub" class="contact-heading">Do you have anything to share, any feedback, suggestions or any other questions? Please use the form below to get in touch!</h4>
 
                     <form method="post">
+                        <!--Email Input-->
                         <div class="form-group">
                             <label for="Input">Your email</label>
                             <input type="email" class="form-control" id="Input" placeholder="Email address">
                         </div>
+                        <!--/.Email Input-->
 
+                        <!--Subject Select-->
                         <label class="my-1 mr-2" for="inlineSelect">Subject</label>
                         <select class="custom-select my-1 mr-sm-2" id="inlineSelect">
                             <option selected>Choose...</option>
@@ -73,18 +80,32 @@
                             <option value="Cooperation">Cooperation</option>
                             <option value="Other">Other</option>
                         </select>
+                        <!--/.Subject Select-->
 
+                        <!--Text Field-->
                         <div class="form-group">
                             <label for="Text">Your message</label>
                             <textarea class="form-control" id="Text" rows="5"></textarea>
                         </div>
+                        <!--/.Text Field-->
+
+                        <!--Button-->
                         <input class="btn btn-secondary" type="submit" value="Submit">
+                        <!--/.Button-->
                     </form>
-                </div>            
+
+                    <h3 id="thankyou">Thank you!</h3>
+                </div>
+                <!--/.Center Content-->
+
+                <div class="col-1"></div>
+
+                <!--Right Image-->
+                <div class="d-none d-md-block col-md-2 image-frame" title=""></div>
+                <!--/.Right Image-->           
             </div>
             <!--/.Contact Form-->
-        
-            <h3 id="thankyou">Thank you!</h3>
+                    
         </section>
         <!--/.Contact Form Section-->
 
