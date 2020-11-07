@@ -9,7 +9,7 @@ h2 {
     font-size: 400%;  
 }
 
-h3 {
+h3, h5 {
     font-family: 'Lobster', cursive;
     color: #585858;
     text-align: center;
@@ -93,6 +93,57 @@ h4 {
 
 
 
+/* Home Styling */
+#quote-image {
+    background: url("../images/Zanzibar/Zanzibar5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Lobster', cursive;
+  color: white;
+  font-size: 240%;
+}
+
+@media screen and (max-width: 768px){
+    .centered {
+        font-size: 190%;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .centered {
+        font-size: 140%;
+    }
+}
+
+#newsletter {
+    margin-top: 1%;
+    margin-bottom: 0%;
+}
+
+#email-signup {
+    padding-bottom: 1%;
+    padding-top: 1%;
+    margin: 0%;
+}
+
+#email-label {
+    font-family: 'Lobster', cursive;
+    color: #585858;
+    font-size: 150%;
+    text-align: center;
+}
+
+
+
 /* Gallery Styling */
 .my-controls {
     text-align: center;
@@ -116,19 +167,3 @@ h4 {
 
 
 
-/* Contact Styling */
-#newsletter {
-    margin-top: 8px;
-}
-
-#email-signup {
-    margin-top: 15px;
-}
-
-#email-label {
-    font-family: 'Lobster', cursive;
-    color: #585858;
-    font-size: 150%;
-    text-align: center;
-    padding-right: 0px;
-}
