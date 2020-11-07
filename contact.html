@@ -56,10 +56,10 @@
                 <div class="d-none d-md-block col-md-2 image-frame" title=""></div>
                 <!--/.Left Image-->
 
-                <div class="col-1"></div>
+                <div class="col-2 col-md-1 buffer"></div>
 
                 <!--Center Content-->
-                <div class="col-8 col-md-6">
+                <div class="col-8 col-md-6 buffer">
                     <h2 class="contact-heading">Get in touch!</h2>
                     <h4 id="contact-sub" class="contact-heading">Do you have anything to share, any feedback, suggestions or any other questions? Please use the form below to get in touch!</h4>
 
@@ -72,14 +72,17 @@
                         <!--/.Email Input-->
 
                         <!--Subject Select-->
-                        <label class="my-1 mr-2" for="inlineSelect">Subject</label>
-                        <select class="custom-select my-1 mr-sm-2" id="inlineSelect">
-                            <option selected>Choose...</option>
-                            <option value="Feedback">Feedback</option>
-                            <option value="Suggestion">Suggestion</option>
-                            <option value="Cooperation">Cooperation</option>
-                            <option value="Other">Other</option>
-                        </select>
+                        <div id="subject">
+                            <label for="inlineSelect">Subject</label>
+                            <select class="custom-select" id="inlineSelect">
+                                <option selected>Choose...</option>
+                                <option value="Feedback">Feedback</option>
+                                <option value="Suggestion">Suggestion</option>
+                                <option value="Cooperation">Cooperation</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                        
                         <!--/.Subject Select-->
 
                         <!--Text Field-->
@@ -98,7 +101,7 @@
                 </div>
                 <!--/.Center Content-->
 
-                <div class="col-1"></div>
+                <div class="col-2 col-md-1 buffer"></div>
 
                 <!--Right Image-->
                 <div class="d-none d-md-block col-md-2 image-frame" title=""></div>
