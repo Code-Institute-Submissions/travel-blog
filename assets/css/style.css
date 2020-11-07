@@ -51,7 +51,7 @@ h4 {
 
 #my-nav {
     font-family: 'Lobster', cursive;
-    font-size: 20px;
+    font-size: 140%;
 }
 
 @media screen and (max-width: 768px){
@@ -65,7 +65,7 @@ h4 {
 .footer-elem {
     font-family: 'Lobster', cursive;
     color: #CBCED1;
-    font-size: 120%;
+    font-size: 140%;
     margin: 0px;
     padding: 0px;
 }
