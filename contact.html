@@ -46,30 +46,34 @@
         <!--/.Header-->
 
 
-
+        <!--Contact Form Section-->
         <section class="background">
 
             
-
-            <!--Contact form-->
+            
+            <!--Contact Form-->
             <div id="my-form" class="row">
-                <div class="col-1 col-md-2"></div>
+                <div class="col-2 col-md-3"></div>
 
-                <div class="col-10 col-md-8">
+                <div class="col-8 col-md-6">
+                    <h2 class="contact-heading">Get in touch!</h2>
+                    <h4 id="contact-sub" class="contact-heading">Do you have anything to share, any feedback, suggestions or any other questions? Please use the form below to get in touch!</h4>
+
                     <form method="post">
                         <div class="form-group">
-                            <label for="Input">Email address</label>
+                            <label for="Input">Your email</label>
                             <input type="email" class="form-control" id="Input" placeholder="Email address">
                         </div>
-                        <div class="form-group">
-                            <label for="Select">Subject</label>
-                            <select class="form-control" id="Select">
-                                <option>Feedback</option>
-                                <option>Request</option>
-                                <option>Cooperation</option>
-                                <option>Other</option>
-                            </select>
-                        </div>
+
+                        <label class="my-1 mr-2" for="inlineSelect">Subject</label>
+                        <select class="custom-select my-1 mr-sm-2" id="inlineSelect">
+                            <option selected>Choose...</option>
+                            <option value="Feedback">Feedback</option>
+                            <option value="Suggestion">Suggestion</option>
+                            <option value="Cooperation">Cooperation</option>
+                            <option value="Other">Other</option>
+                        </select>
+
                         <div class="form-group">
                             <label for="Text">Your message</label>
                             <textarea class="form-control" id="Text" rows="5"></textarea>
@@ -78,9 +82,11 @@
                     </form>
                 </div>            
             </div>
-            <!--/.Contact form-->
-           
+            <!--/.Contact Form-->
+        
+            <h3 id="thankyou">Thank you!</h3>
         </section>
+        <!--/.Contact Form Section-->
 
 
 

@@ -175,7 +175,23 @@ h4 {
 
 
 /* Contact Styling */
+.contact-heading {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: 0%;
+}
+
+#contact-sub {
+    padding-top: 0%
+}
+
 #my-form {
     padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#thankyou {
+    margin: 0%;
     padding-bottom: 5%;
+    font-size: 250%;
 }
