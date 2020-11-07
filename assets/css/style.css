@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 
+
 /* General Styling */
 h2 {
     font-family: 'Lobster', cursive;
@@ -25,6 +26,7 @@ h4 {
 .background {
     background-color: #F0E8DB;
 }
+
 
 
 /* Header Styling */
@@ -59,6 +61,7 @@ h4 {
         display: none;
     }
 }
+
 
 
 /* Footer Styling */
@@ -152,6 +155,7 @@ h4 {
 }
 
 
+
 /* Gallery Styling */
 .my-controls {
     text-align: center;
@@ -174,6 +178,50 @@ h4 {
 }
 
 
+
+/* Blog Styling */
+.blog-header {
+    padding-top: 2%;
+}
+
+.blog-entry {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+@media screen and (max-width: 768px){
+    .blog-header {
+        font-size: 200%;
+    }
+}
+
+#pic3 {
+    background: url("../images/Kilimanjaro/KiliPic3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#pic2 {
+    background: url("../images/Kilimanjaro/KiliPic2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#pic1 {
+    background: url("../images/Kilimanjaro/KiliPic1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blog-text {
+    text-align: justify;
+}
+
+
+
 /* Contact Styling */
 .image-frame {
     background: url("../images/Zanzibar/Zanzibar3.jpg");
@@ -185,6 +233,11 @@ h4 {
     margin: 0%;
 }
 
+.buffer {
+    margin: 0%;
+    padding: 0%;
+}
+
 .contact-heading {
     padding-top: 4%;
     padding-bottom: 2%;
@@ -193,6 +246,10 @@ h4 {
 
 #contact-sub {
     padding-top: 0%
+}
+
+#subject {
+    margin-bottom: 16px;
 }
 
 #thankyou {
