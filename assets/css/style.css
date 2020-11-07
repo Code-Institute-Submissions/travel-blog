@@ -81,7 +81,7 @@ h4 {
 }
 
 .footer-elem ul {
-    padding-inline-start: 0px;
+    padding-left: 0px;
     background-color: #343A40;
     margin: 0px;
 }
@@ -94,12 +94,21 @@ h4 {
 
 
 /* Home Styling */
+#welcome {
+    padding-top: 1%;
+}
+
+#join-me {
+    padding-bottom: 1%;
+}
+
 #quote-image {
     background: url("../images/Zanzibar/Zanzibar5.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 300px;
+    opacity: 0.9;
 }
 
 .centered {
@@ -143,7 +152,6 @@ h4 {
 }
 
 
-
 /* Gallery Styling */
 .my-controls {
     text-align: center;
@@ -166,4 +174,8 @@ h4 {
 }
 
 
-
+/* Contact Styling */
+#my-form {
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
