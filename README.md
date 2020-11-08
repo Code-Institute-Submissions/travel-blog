@@ -6,16 +6,16 @@ This is my travel blog. Its purpose is to present pictures of my trips and share
 on devices of various sizes. 
 
 ##  Home:
-<h2 align="center"><img src="assets/images/_screenshots/Home.jpg"></h2>
+<h2 align="center"><img src="assets/images/_screenshots/home.jpg"></h2>
 
 ##  Gallery:
-<h2 align="center"><img src="assets/images/_screenshots/Gallery.jpg"></h2>
+<h2 align="center"><img src="assets/images/_screenshots/gallery.jpg"></h2>
 
 ##  Blog:
-<h2 align="center"><img src="assets/images/_screenshots/Blog.jpg"></h2>
+<h2 align="center"><img src="assets/images/_screenshots/blog.jpg"></h2>
 
 ##  Contact:
-<h2 align="center"><img src="assets/images/_screenshots/Contact.jpg"></h2>
+<h2 align="center"><img src="assets/images/_screenshots/contact.jpg"></h2>
 
 ## User Experience (UX)
 
@@ -172,8 +172,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Known Bugs
 
--   On the gallery page, pictures in portrait and landscape orientation appear in different sizes, causing the general content of the page to jump around when the carousel moves on to the next slide.
-    -   This may cause the user to have to scroll back to center the pictures they were viewing, or to have to move the mouse pointer back to the "next slide" indicator.
+-   On the gallery page, pictures in portrait and landscape orientation appear in different sizes, causing the general content of the page to jump around when the carousel moves on to a slide with pictures of different orientation.
+    -   This may cause the user to have to scroll back to center the pictures they were viewing, or to have to move the mouse pointer back to the next/previous slide indicator if they were just about to click.
+
+-   On the blog page, I encountered issues with adding the supplementary pictures appropriately sized and formatted in the Bootstrap grid structure used on the page via html.
+    -   A workaround has been implemented by adding the pictures via CSS.
+        -   This works and is not causing any issues for the user; the missing alt attribute on the html side has been compensated for by adding a title in the appropriate place of the html code.
+        -   In the long run, however, with more content being added this is unsustainable as every picture being added requires a new CSS style rule.
 
 ### Planned Features
 
