@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 
 /* General Styling */
@@ -25,6 +25,10 @@ h4 {
 
 .background {
     background-color: #F0E8DB;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
 }
 
 
@@ -154,6 +158,10 @@ h4 {
     text-align: center;
 }
 
+#newsletter-button {
+    margin-bottom: 1%;
+}
+
 
 
 /* Gallery Styling */
@@ -260,6 +268,10 @@ h4 {
 
 
 /* Contact Styling */
+.my-label {
+    font-family: 'Quicksand', sans-serif;
+}
+
 .image-frame {
     background: url("../images/Zanzibar/Zanzibar3.jpg");
     background-position: center;
