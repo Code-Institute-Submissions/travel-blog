@@ -1,13 +1,20 @@
-<h1 align="center"><Ra's Travel Blog</h1>
+#   Ra's Travel Blog
 
 [View the live project here.](https://z03y.github.io/travel-blog/blog.html)
 
 This is my travel blog. Its purpose is to present pictures of my trips and share the stories of my journeys in a visually appealing way. It is designed to be responsive and works
 on devices of various sizes. 
 
+##  Home:
 <h2 align="center"><img src="assets/images/_screenshots/Home.jpg"></h2>
+
+##  Gallery:
 <h2 align="center"><img src="assets/images/_screenshots/Gallery.jpg"></h2>
+
+##  Blog:
 <h2 align="center"><img src="assets/images/_screenshots/Blog.jpg"></h2>
+
+##  Contact:
 <h2 align="center"><img src="assets/images/_screenshots/Contact.jpg"></h2>
 
 ## User Experience (UX)
