@@ -184,6 +184,17 @@ h4 {
     padding-top: 2%;
 }
 
+#kili-intro {
+    margin-top: 16px;
+    padding-right: 0%;
+    padding-left: 0%;
+    text-align: justify;
+}
+
+#intro {
+    padding-left: 0%;
+}
+
 .blog-entry {
     padding-top: 2%;
     padding-bottom: 2%;
@@ -195,8 +206,8 @@ h4 {
     }
 }
 
-#pic3 {
-    background: url("../images/Kilimanjaro/KiliPic3.jpg");
+#pic1 {
+    background: url("../images/Kilimanjaro/KiliPic1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -209,8 +220,29 @@ h4 {
     background-size: cover;
 }
 
-#pic1 {
-    background: url("../images/Kilimanjaro/KiliPic1.jpg");
+#pic3 {
+    background: url("../images/Kilimanjaro/KiliPic3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#pic4 {
+    background: url("../images/Kilimanjaro/KiliPic4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#pic5 {
+    background: url("../images/Kilimanjaro/KiliPic5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#pic6 {
+    background: url("../images/Kilimanjaro/KiliPic6.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -220,6 +252,11 @@ h4 {
     text-align: justify;
 }
 
+#stay-tuned {
+    font-size: 240%;
+    padding-bottom: 5%;
+    margin-top: 8px;
+}
 
 
 /* Contact Styling */
