@@ -1,6 +1,6 @@
 #   Ra's Travel Blog
 
-[View the live project here.](https://z03y.github.io/travel-blog/blog.html)
+[View the live project here.](https://z03y.github.io/travel-blog/)
 
 This is my travel blog. Its purpose is to present pictures of my trips and share the stories of my journeys in a visually appealing way. It is designed to be responsive and works
 on devices of various sizes. 
@@ -57,15 +57,12 @@ on devices of various sizes.
 *   ### Wireframes
 
     -   Home Page Wireframe - [View](https://github.com/)
-
     -   Mobile Wireframe - [View](https://github.com/)
-
     -   Contact Us Page Wireframe - [View](https://github.com/)
 
 ## Features
 
 -   Responsive on all device sizes
-
 -   Interactive gallery
 
 ## Technologies Used
@@ -231,15 +228,12 @@ The GitHub Repository can be forked to make a copy of the original repository to
 ### Code
 
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): The Bootstrap Library was used throughout the project mainly for responsiveness and layout of the content via its grid system.
-
 -   [Bootstrap Carousel](https://mdbootstrap.com/plugins/jquery/gallery/#carousel-1): The code for the Bootstrap Carousel was used and adapted in the gallery page.
-
 -   The code snippet to create responsive line breaks in the header was found [here](http://v3.danielmall.com/articles/responsive-line-breaks/).
 
 ### Content
 
 -   All content was written by the developer, except for the quote.
-
 -   The quote on the home page was found [here](https://www.earthtrekkers.com/best-travel-quotes-images/).
 
 ### Media
@@ -253,5 +247,4 @@ The GitHub Repository can be forked to make a copy of the original repository to
 ### Acknowledgements
 
 -   My Mentor for continuous helpful feedback.
-
--   Tutor support at Code Institute for their support.
+-   The tutors at Code Institute for their support.
