@@ -56,9 +56,10 @@ on devices of various sizes.
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/)
-    -   Mobile Wireframe - [View](https://github.com/)
-    -   Contact Us Page Wireframe - [View](https://github.com/)
+    -   Home Wireframes - [View Large](https://github.com/Z03Y/travel-blog/blob/master/wireframes/home_large.png), [View Small](https://github.com/Z03Y/travel-blog/blob/master/wireframes/home_small.png)
+    -   Gallery Wireframes - [View Large](https://github.com/Z03Y/travel-blog/blob/master/wireframes/gallery_large.png), [View Small](https://github.com/Z03Y/travel-blog/blob/master/wireframes/gallery_small.png)
+    -   Blog Wireframes - [View Large](https://github.com/Z03Y/travel-blog/blob/master/wireframes/blog_large.png), [View Small](https://github.com/Z03Y/travel-blog/blob/master/wireframes/blog_small.png)
+    -   Contact Wireframes - [View Large](https://github.com/Z03Y/travel-blog/blob/master/wireframes/contact_large.png), [View Small](https://github.com/Z03Y/travel-blog/blob/master/wireframes/contact_small.png)
 
 ## Features
 
