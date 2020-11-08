@@ -23,14 +23,17 @@ h4 {
     margin: 0.5%;
 }
 
-.background {
-    background-color: #F0E8DB;
-}
-
 p {
     font-family: 'Quicksand', sans-serif;
 }
 
+.background {
+    background-color: #F0E8DB;
+}
+
+.my-label {
+    font-family: 'Quicksand', sans-serif;
+}
 
 
 /* Header Styling */
@@ -47,8 +50,8 @@ p {
     font-size: 300%;  
 }
 
-#hero1 {
-    background: url("../images/Kilimanjaro-Header.jpg");
+#hero {
+    background: url("../images/kilimanjaro-header.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -67,7 +70,6 @@ p {
 }
 
 
-
 /* Footer Styling */
 .footer-elem {
     font-family: 'Lobster', cursive;
@@ -75,6 +77,12 @@ p {
     font-size: 140%;
     margin: 0px;
     padding: 0px;
+}
+
+.footer-elem ul {
+    padding-left: 0px;
+    background-color: #343A40;
+    margin: 0px;
 }
 
 .footer-elem li {
@@ -87,17 +95,10 @@ p {
     color: #CBCED1;
 }
 
-.footer-elem ul {
-    padding-left: 0px;
-    background-color: #343A40;
-    margin: 0px;
-}
-
 #contact-footer {
     text-decoration: none;
     color: #CBCED1;
 }
-
 
 
 /* Home Styling */
@@ -110,7 +111,7 @@ p {
 }
 
 #quote-image {
-    background: url("../images/Zanzibar/Zanzibar5.jpg");
+    background: url("../images/zanzibar/zanzibar5.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -151,17 +152,9 @@ p {
     margin: 0%;
 }
 
-#email-label {
-    font-family: 'Lobster', cursive;
-    color: #585858;
-    font-size: 150%;
-    text-align: center;
-}
-
 #newsletter-button {
     margin-bottom: 1%;
 }
-
 
 
 /* Gallery Styling */
@@ -186,10 +179,13 @@ p {
 }
 
 
-
 /* Blog Styling */
 .blog-header {
     padding-top: 2%;
+}
+
+#intro {
+    padding-left: 0%;
 }
 
 #kili-intro {
@@ -199,65 +195,55 @@ p {
     text-align: justify;
 }
 
-#intro {
-    padding-left: 0%;
-}
-
 .blog-entry {
     padding-top: 2%;
     padding-bottom: 2%;
 }
 
-@media screen and (max-width: 768px){
-    .blog-header {
-        font-size: 200%;
-    }
+.blog-text {
+    text-align: justify;
 }
 
 #pic1 {
-    background: url("../images/Kilimanjaro/KiliPic1.jpg");
+    background: url("../images/kilimanjaro/kili-pic1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #pic2 {
-    background: url("../images/Kilimanjaro/KiliPic2.jpg");
+    background: url("../images/kilimanjaro/kili-pic2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #pic3 {
-    background: url("../images/Kilimanjaro/KiliPic3.jpg");
+    background: url("../images/kilimanjaro/kili-pic3.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #pic4 {
-    background: url("../images/Kilimanjaro/KiliPic4.jpg");
+    background: url("../images/kilimanjaro/kili-pic4.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #pic5 {
-    background: url("../images/Kilimanjaro/KiliPic5.jpg");
+    background: url("../images/kilimanjaro/kili-pic5.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #pic6 {
-    background: url("../images/Kilimanjaro/KiliPic6.jpg");
+    background: url("../images/kilimanjaro/kili-pic6.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.blog-text {
-    text-align: justify;
 }
 
 #stay-tuned {
@@ -266,14 +252,16 @@ p {
     margin-top: 8px;
 }
 
-
-/* Contact Styling */
-.my-label {
-    font-family: 'Quicksand', sans-serif;
+@media screen and (max-width: 768px){
+    .blog-header {
+        font-size: 200%;
+    }
 }
 
+
+/* Contact Styling */
 .image-frame {
-    background: url("../images/Zanzibar/Zanzibar3.jpg");
+    background: url("../images/zanzibar/zanzibar3.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -293,7 +281,7 @@ p {
     margin: 0%;
 }
 
-#contact-sub {
+#contact-subheading {
     padding-top: 0%
 }
 
